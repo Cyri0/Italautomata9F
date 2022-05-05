@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: skyblue;
+}
+
+#test{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+#kirakat{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(207, 237, 255);
+    float: left;
+}
+
+#kezelofelulet{
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-color: rgb(115, 115, 115);
+}
+
+#kijelzo{
+    width: 90%;
+    height: 40px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+#gombok{
+    width: 90%;
+    margin: auto;
+}
+
+#gombok>button{
+    width: calc(100% / 3);
+}
